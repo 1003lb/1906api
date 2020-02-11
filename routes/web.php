@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('php', function () {
+	  phpinfo();
+});
+Route::get('xx', function () {
+	 echo "成功";
+});
